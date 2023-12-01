@@ -14388,6 +14388,19 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   height: 3rem;
 }
 
+.sec7 .div1 h1, .sec7 .div1 .h1 {
+  width: 44rem;
+}
+.sec7 .div1 p {
+  width: 44rem;
+}
+.sec7 .div2 .up_dwn .di1 {
+  width: 22em;
+}
+.sec7 .div2 .up_dwn .di1 div p {
+  width: 18rem;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   footer {
     width: 45% !important;
