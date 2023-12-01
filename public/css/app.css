@@ -14253,6 +14253,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   border-radius: 50%;
   font-size: xx-large;
   color: #3385D6;
+  transition: 0.5s;
 }
 .sec2 .div2 i:hover {
   background-color: #3385D6;
@@ -14288,6 +14289,11 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
 }
 .sec3 .di1 i {
   font-size: x-large;
+  transition: 0.5s;
+}
+.sec3 .di1 i:hover {
+  background-color: #fff;
+  color: #3385D6 !important;
 }
 
 .sec4 .div1 h1, .sec4 .div1 .h1 {
@@ -14478,6 +14484,36 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
 }
 .sec12 .alldiv .div2 button {
   height: 3rem;
+}
+
+button, .btn {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#363636, #363636);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+button:hover, .btn:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.button2 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#3385D6, #3385D6);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.button2:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
