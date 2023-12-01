@@ -14436,6 +14436,33 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   width: 10rem;
 }
 
+.sec11 .div1 h1, .sec11 .div1 .h1 {
+  width: 44rem;
+}
+.sec11 .div1 p {
+  width: 44rem;
+}
+.sec11 .div2 img {
+  width: 34rem;
+  height: 31rem;
+}
+.sec11 .div2 form {
+  width: 32rem;
+}
+.sec11 .div2 form input {
+  width: 15rem;
+  height: 2.5rem;
+}
+.sec11 .div2 form select {
+  width: 15rem;
+  height: 2.5rem;
+}
+.sec11 .div2 form textarea {
+  width: 32rem;
+  resize: none;
+  display: block;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   footer {
     width: 45% !important;
