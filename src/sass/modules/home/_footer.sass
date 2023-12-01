@@ -1,7 +1,7 @@
 @media only screen and (min-width: 426px) and (max-width: 1024px)
     footer
         .alldiv1
-        width: 45% !important
+            width: 45% !important
 @media only screen and (min-width: 1024px)
     footer
         .alldiv
@@ -20,16 +20,25 @@ footer
     .footer-link:hover
         padding-left: .5rem
 
-    .footer-social:hover
-        color: var(--bs--dark)
-        background: #fff
-        color: $blue
+    .footer-social
+        width: 2rem
+        height: 2rem
+
 
     input
         outline: none
         &::placeholder
             color: white
 
-@media only screen and (min-width: 1024px)
     .footer-item
         flex: 1
+
+
+@media screen and ( min-width: 500px )
+        .footer-social:hover
+            color: var(--bs--dark)
+            background: #fff
+            color: $blue
+        
+        .footer-link:hover
+            padding-left: .5rem

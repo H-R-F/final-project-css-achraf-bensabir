@@ -14127,6 +14127,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: webfont;
+}
 body header nav .div2 button {
   width: 10rem;
   height: 2.5rem;
@@ -14205,7 +14208,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
 }
 
 .sec2 {
-  padding: 3rem;
+  padding: 1rem;
 }
 .sec2 .div1 {
   display: flex;
@@ -14219,7 +14222,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   font-weight: bold;
 }
 .sec2 .div1 p {
-  width: 46rem;
+  width: 41rem;
 }
 .sec2 .div2 {
   display: flex;
@@ -14300,7 +14303,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   width: 44rem;
 }
 .sec4 .div1 p {
-  width: 44rem;
+  width: 41rem;
 }
 .sec4 .div2 .d1 {
   width: 40rem;
@@ -14342,7 +14345,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   z-index: 1;
 }
 .sec5 p {
-  width: 44rem;
+  width: 41rem;
   z-index: 1;
 }
 .sec5 .div1 {
@@ -14355,10 +14358,10 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
 }
 
 .sec6 .div1 h1, .sec6 .div1 .h1 {
-  width: 44rem;
+  width: 41rem;
 }
 .sec6 .div1 p {
-  width: 44rem;
+  width: 41rem;
 }
 .sec6 .div2 .alldiv .div1 {
   width: 75rem;
@@ -14398,7 +14401,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   width: 44rem;
 }
 .sec7 .div1 p {
-  width: 44rem;
+  width: 41rem;
 }
 .sec7 .div2 .up_dwn .di1 {
   width: 22em;
@@ -14411,14 +14414,14 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   width: 44rem;
 }
 .sec8 .div1 p {
-  width: 44rem;
+  width: 41rem;
 }
 
 .sec9 .div1 h1, .sec9 .div1 .h1 {
   width: 44rem;
 }
 .sec9 .div1 p {
-  width: 44rem;
+  width: 41rem;
 }
 
 .sec10 {
@@ -14446,7 +14449,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   width: 44rem;
 }
 .sec11 .div1 p {
-  width: 44rem;
+  width: 41rem;
 }
 .sec11 .div2 img {
   width: 34rem;
@@ -14479,6 +14482,7 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   width: 28rem;
 }
 .sec12 .alldiv .div2 input {
+  outline: none;
   width: 20rem;
   height: 3rem;
 }
@@ -14486,36 +14490,36 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   height: 3rem;
 }
 
-button, .btn {
-  position: relative;
-  display: inline-block;
-  color: white;
-  background-image: linear-gradient(#363636, #363636);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: 0% 100%;
-  transition: background-size 0.5s, color 0.5s;
+@media screen and (min-width: 500px) {
+  button, .btn {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(#363636, #363636);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.5s, color 0.5s;
+  }
+  button:hover, .btn:hover {
+    background-size: 100% 100%;
+    color: #fff;
+  }
+  .button2 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(#3385D6, #3385D6);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.5s, color 0.5s;
+  }
+  .button2:hover {
+    background-size: 100% 100%;
+    color: #fff;
+  }
 }
-button:hover, .btn:hover {
-  background-size: 100% 100%;
-  color: #fff;
-}
-
-.button2 {
-  position: relative;
-  display: inline-block;
-  color: white;
-  background-image: linear-gradient(#3385D6, #3385D6);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: 0% 100%;
-  transition: background-size 0.5s, color 0.5s;
-}
-.button2:hover {
-  background-size: 100% 100%;
-  color: #fff;
-}
-
 @media screen and (max-width: 430px) {
   body .sec1 {
     width: 100vw !important;
@@ -14553,7 +14557,7 @@ button:hover, .btn:hover {
     display: none;
   }
   body .sec2 {
-    padding-top: 10rem;
+    padding-top: 6rem;
   }
   body .sec2 .div1 h1, body .sec2 .div1 .h1 {
     width: 100vw;
@@ -14591,9 +14595,9 @@ button:hover, .btn:hover {
   body .sec4 .div2 .d1 {
     width: 20rem !important;
   }
-  body .sec4 .div2 .d1 .d2 video {
-    width: 90vw !important;
-    height: 35vh !important;
+  body .sec4 .div2 .d2 video {
+    width: 85vw !important;
+    height: 50vh !important;
   }
   body .sec5 {
     height: 70vh !important;
@@ -14723,8 +14727,15 @@ button:hover, .btn:hover {
     width: 50vw !important;
   }
 }
+body .sec0 {
+  position: fixed;
+  top: 5rem;
+  right: 1rem;
+  z-index: 990;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
-  footer {
+  footer .alldiv1 {
     width: 45% !important;
   }
 }
@@ -14746,10 +14757,9 @@ footer h4::after, footer .h4::after {
 footer .footer-link:hover {
   padding-left: 0.5rem;
 }
-footer .footer-social:hover {
-  color: var(--bs--dark);
-  background: #fff;
-  color: #3385D6;
+footer .footer-social {
+  width: 2rem;
+  height: 2rem;
 }
 footer input {
   outline: none;
@@ -14757,10 +14767,18 @@ footer input {
 footer input::placeholder {
   color: white;
 }
+footer .footer-item {
+  flex: 1;
+}
 
-@media only screen and (min-width: 1024px) {
-  .footer-item {
-    flex: 1;
+@media screen and (min-width: 500px) {
+  .footer-social:hover {
+    color: var(--bs--dark);
+    background: #fff;
+    color: #3385D6;
+  }
+  .footer-link:hover {
+    padding-left: 0.5rem;
   }
 }
 
