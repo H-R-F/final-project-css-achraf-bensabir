@@ -14160,6 +14160,50 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   box-sizing: border-box;
 }
 
+.sec1 .alldiv1 {
+  height: 100vh;
+}
+.sec1 .alldiv1 .div11 .d1 {
+  height: 100%;
+  background-image: url(../image/slider.jpg);
+  background-size: cover;
+}
+.sec1 .alldiv1 .div11 .d2 {
+  height: 100vh;
+  width: 56rem;
+}
+.sec1 .alldiv1 .div11 .d2 h1, .sec1 .alldiv1 .div11 .d2 .h1 {
+  width: 36rem;
+}
+.sec1 .alldiv1 .div11 .d2 p {
+  width: 36rem;
+}
+.sec1 .alldiv1 .div11 .d2 div {
+  width: 32rem;
+}
+.sec1 .alldiv1 .div11 .d2 div .button1 {
+  width: 12rem;
+  height: 3rem;
+}
+.sec1 .alldiv1 .div11 .d2 div .button2 {
+  width: 8rem;
+  height: 3rem;
+}
+.sec1 .alldiv1 .div2 .d1 {
+  height: 100%;
+  background-image: url(../image/slider2.jpg);
+  background-size: cover;
+}
+.sec1 .alldiv1 .div3 .d1 {
+  height: 100%;
+  background-image: url(../image/slider3.jpg);
+  background-size: cover;
+}
+.sec1 button .slide {
+  width: 3rem;
+  height: 3rem;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   footer {
     width: 45% !important;
