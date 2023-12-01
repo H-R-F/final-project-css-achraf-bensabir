@@ -14463,6 +14463,23 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   display: block;
 }
 
+.sec12 .alldiv {
+  width: 70rem;
+}
+.sec12 .alldiv .div1 {
+  width: 32rem;
+}
+.sec12 .alldiv .div2 {
+  width: 28rem;
+}
+.sec12 .alldiv .div2 input {
+  width: 20rem;
+  height: 3rem;
+}
+.sec12 .alldiv .div2 button {
+  height: 3rem;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   footer {
     width: 45% !important;
