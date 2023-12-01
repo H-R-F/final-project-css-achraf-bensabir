@@ -14290,6 +14290,32 @@ header .nav-item:first-child::after, header .nav-item:hover::after {
   font-size: x-large;
 }
 
+.sec4 .div1 h1, .sec4 .div1 .h1 {
+  width: 44rem;
+}
+.sec4 .div1 p {
+  width: 44rem;
+}
+.sec4 .div2 .d1 {
+  width: 40rem;
+}
+.sec4 .div2 .d1 h1, .sec4 .div2 .d1 .h1 {
+  position: relative;
+}
+.sec4 .div2 .d1 h1::after, .sec4 .div2 .d1 .h1::after {
+  content: "";
+  border-bottom: 4px solid blue;
+  border-radius: 5px;
+  width: 40%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+.sec4 .div2 .d1 .d2 video {
+  width: 30rem;
+  height: 20rem;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   footer {
     width: 45% !important;
