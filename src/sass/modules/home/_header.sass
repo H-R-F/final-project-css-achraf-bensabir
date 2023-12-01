@@ -1,0 +1,37 @@
+body
+    header
+        nav
+            .div2
+                button
+                    width: 10rem
+                    height: 2.5rem
+
+@media screen and ( max-width: 426px )
+    body
+        header
+            nav
+                width: 100vw !important
+
+
+
+@media only screen and (min-width: 1024px)
+header
+    .nav-item
+        position: relative
+
+        &::after
+            content: ''
+            border-bottom: 4px solid blue
+            border-radius: 5px
+            width: 0
+            position: absolute
+            left: 0
+            bottom: 0
+            transition: .7s
+            // visibility: hidden
+
+        &:first-child, &:hover
+            // background: #000
+            &::after
+                // visibility: visible
+                width: 90%

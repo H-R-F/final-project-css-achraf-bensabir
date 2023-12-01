@@ -2,3 +2,17 @@
     @import ../../node_modules/bootstrap/scss/functions
     @import ../../node_modules/bootstrap/scss/variables
 
+
+$darkblue: #0000FF
+$blue: #3385D6
+$gray: #373737
+
+$custom-colors: ("blue1": $darkblue, "blue": $blue, "gray": $gray )
+$theme-colors: map-merge($custom-colors , $theme-colors)
+
+// padding & margin
+
+$spacer: 1rem
+$custom_spacers: ( 6: $spacer * 6, 7: $spacer * 7, 8: $spacer * 8, 9: $spacer * 9, 10: $spacer * 10)
+$spacers: map-merge( $custom_spacers , $spacers)
+
