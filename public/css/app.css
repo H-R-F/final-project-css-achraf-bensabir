@@ -14516,6 +14516,213 @@ button:hover, .btn:hover {
   color: #fff;
 }
 
+@media screen and (max-width: 430px) {
+  body .sec1 {
+    width: 100vw !important;
+    height: 50vh;
+  }
+  body .sec1 .alldiv1 .div11 .d1 {
+    width: 40rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  body .sec1 .alldiv1 .div11 .d2 {
+    height: 80vh;
+    width: 100vw;
+  }
+  body .sec1 .alldiv1 .div11 .d2 h1, body .sec1 .alldiv1 .div11 .d2 .h1 {
+    font-size: x-large;
+    width: 80vw !important;
+  }
+  body .sec1 .alldiv1 .div11 .d2 p {
+    width: 80vw !important;
+  }
+  body .sec1 .alldiv1 .div11 .d2 div {
+    width: 80vw !important;
+  }
+  body .sec1 .alldiv1 .div11 .d2 div .button1 {
+    width: 80vw;
+  }
+  body .sec1 .alldiv1 .div11 .d2 div .button2 {
+    width: 80vw;
+  }
+  body .sec1 .left {
+    display: none;
+  }
+  body .sec1 .right {
+    display: none;
+  }
+  body .sec2 {
+    padding-top: 10rem;
+  }
+  body .sec2 .div1 h1, body .sec2 .div1 .h1 {
+    width: 100vw;
+  }
+  body .sec2 .div1 p {
+    width: 100vw;
+    font-size: 18px;
+  }
+  body .sec2 .div2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  body .sec2 .div2::after {
+    display: none;
+  }
+  body .sec2 .div2::before {
+    display: none;
+  }
+  body .sec3 {
+    height: 41rem;
+  }
+  body .sec3::before {
+    height: 41rem;
+  }
+  body .sec4 {
+    width: 100vw;
+  }
+  body .sec4 .div1 h1, body .sec4 .div1 .h1 {
+    width: 100vw !important;
+  }
+  body .sec4 .div1 p {
+    font-size: 18px;
+    width: 100vw !important;
+  }
+  body .sec4 .div2 .d1 {
+    width: 20rem !important;
+  }
+  body .sec4 .div2 .d1 .d2 video {
+    width: 90vw !important;
+    height: 35vh !important;
+  }
+  body .sec5 {
+    height: 70vh !important;
+  }
+  body .sec5::before {
+    height: 70vh !important;
+  }
+  body .sec5 h1, body .sec5 .h1 {
+    width: 100vw !important;
+  }
+  body .sec5 p {
+    font-size: 18px !important;
+    width: 100vw !important;
+  }
+  body .sec5 .div1 {
+    width: 80vw !important;
+  }
+  body .sec5 .div1 button {
+    width: 10rem;
+    height: 3rem;
+  }
+  body .sec6 .div1 h1, body .sec6 .div1 .h1 {
+    width: 100vw !important;
+  }
+  body .sec6 .div1 p {
+    width: 100vw !important;
+  }
+  body .sec6 .div2 .alldiv .div1 {
+    width: 80vw !important;
+  }
+  body .sec6 .div2 .alldiv .div1 .image1 {
+    width: 80vw !important;
+  }
+  body .sec6 .div2 .alldiv .div1 .image1 img {
+    width: 80vw !important;
+  }
+  body .sec6 .div2 .alldiv .carousel_control {
+    display: none;
+  }
+  body .sec7 .div1 h1, body .sec7 .div1 .h1 {
+    width: 100vw !important;
+  }
+  body .sec7 .div1 p {
+    width: 100vw !important;
+  }
+  body .sec7 .div2 .up_dwn .di1 {
+    width: 100vw !important;
+  }
+  body .sec7 .div2 .up_dwn .di1 div p {
+    width: 100vw !important;
+  }
+  body .sec8 .div1 h1, body .sec8 .div1 .h1 {
+    width: 100vw !important;
+  }
+  body .sec8 .div1 p {
+    width: 100vw !important;
+  }
+  body .sec8 .div2 .card {
+    width: 80vw !important;
+  }
+  body .sec9 .div1 h1, body .sec9 .div1 .h1 {
+    width: 100vw !important;
+  }
+  body .sec9 .div1 p {
+    font-size: 18px;
+    width: 100vw !important;
+  }
+  body .sec9 .div2 .card {
+    width: 80vw !important;
+  }
+  body .sec10 {
+    height: 80vh !important;
+  }
+  body .sec10::before {
+    height: 80vh !important;
+  }
+  body .sec11 .div1 h1, body .sec11 .div1 .h1 {
+    width: 100vw !important;
+  }
+  body .sec11 .div1 p {
+    font-size: 18px !important;
+    width: 100vw !important;
+  }
+  body .sec11 .div2 {
+    width: 100 vw !important;
+  }
+  body .sec11 .div2 img {
+    width: 95vw !important;
+    height: 70vh !important;
+  }
+  body .sec11 .div2 form {
+    width: 80vw !important;
+  }
+  body .sec11 .div2 form input {
+    width: 80vw !important;
+    height: 10vh !important;
+  }
+  body .sec11 .div2 form select {
+    width: 80vw !important;
+    height: 10vh !important;
+  }
+  body .sec11 .div2 form textarea {
+    width: 80vw !important;
+  }
+  body .sec11 .div2 form .button1 {
+    width: 80vw !important;
+  }
+  body .sec12 .alldiv {
+    width: 100vw !important;
+  }
+  body .sec12 .alldiv .div1 {
+    width: 100vw !important;
+  }
+  body .sec12 .alldiv .div1 h1, body .sec12 .alldiv .div1 .h1 {
+    width: 80vw !important;
+  }
+  body .sec12 .alldiv .div1 p {
+    width: 80vw !important;
+  }
+  body .sec12 .alldiv .div2 {
+    width: 100vw !important;
+  }
+  body .sec12 .alldiv .div2 input {
+    width: 80vw !important;
+  }
+  body .sec12 .alldiv .div2 button {
+    width: 50vw !important;
+  }
+}
 @media only screen and (min-width: 426px) and (max-width: 1024px) {
   footer {
     width: 45% !important;
